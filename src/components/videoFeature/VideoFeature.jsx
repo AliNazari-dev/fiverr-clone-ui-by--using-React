@@ -1,9 +1,7 @@
 import React from "react";
-import "./VideoFeature.scss";
 
 const VideoFeature = () => {
   return (
-    <>
       <div className='features'>
         <div className='container'>
           <div className='item'>
@@ -34,7 +32,6 @@ const VideoFeature = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

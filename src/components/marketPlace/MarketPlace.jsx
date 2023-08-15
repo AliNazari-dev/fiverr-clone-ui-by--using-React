@@ -1,5 +1,5 @@
 import React from "react";
-import "./MarketPlace.scss";
+
 
 
 const MarketPlace = () => {

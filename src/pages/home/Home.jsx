@@ -6,6 +6,7 @@ import { cards, projects } from "../../data";
 import CatCard from "../../components/catCard/CatCard";
 import VideoFeature from "../../components/videoFeature/VideoFeature";
 import MarketPlace from "../../components/marketPlace/MarketPlace";
+import DarkFeature from "../../components/darkFeature/DarkFeature";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       </Slide>
       <VideoFeature />
       <MarketPlace />
+      <DarkFeature />
     </div>
   );
 };
