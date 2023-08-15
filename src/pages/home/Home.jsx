@@ -4,6 +4,8 @@ import TrustedBy from "../../components/trustBy/TrustedBy";
 import "./Home.scss";
 import { cards, projects } from "../../data";
 import CatCard from "../../components/catCard/CatCard";
+import VideoFeature from "../../components/videoFeature/VideoFeature";
+import MarketPlace from "../../components/marketPlace/MarketPlace";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
           <CatCard key={card.id} card={card} />
         ))}
       </Slide>
+      <VideoFeature />
+      <MarketPlace />
     </div>
   );
 };
