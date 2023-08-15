@@ -34,6 +34,10 @@ function App() {
         { path: "/messages", element: <Messages /> },
         { path: "/add", element: <Add /> },
         { path: "/message/:id", element: <Message /> },
+        {
+          path: "/myGigs",
+          element: <MyGigs />,
+        },
       ],
     },
   ]);
