@@ -7,6 +7,7 @@ import CatCard from "../../components/catCard/CatCard";
 import VideoFeature from "../../components/videoFeature/VideoFeature";
 import MarketPlace from "../../components/marketPlace/MarketPlace";
 import DarkFeature from "../../components/darkFeature/DarkFeature";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 
 const Home = () => {
   return (
@@ -21,6 +22,11 @@ const Home = () => {
       <VideoFeature />
       <MarketPlace />
       <DarkFeature />
+      <Slide slidesToShow={5} arrowsScroll={5}>
+        {projects.map((project) => (
+          <ProjectCard key={project.id} card={project} />
+        ))}
+      </Slide>
     </div>
   );
 };
