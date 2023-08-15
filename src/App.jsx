@@ -1,9 +1,12 @@
-import Add from "./pages/add/Add";
-
-
+import Navbar from "./components/navabar/Navbar";
+import "./app.scss";
 
 function App() {
-  return <div>Hello fiverr</div>;
+  return (
+    <div className='app'>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
