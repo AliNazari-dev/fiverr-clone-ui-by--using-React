@@ -1,9 +1,9 @@
-import "./Gig.scss";
+import React from 'react'
 
 const Gig = () => {
-  return;
+  return (
+    <div>Gig</div>
+  )
+}
 
-  <div>Gig</div>;
-};
-
-export default Gig;
+export default Gig
